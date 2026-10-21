@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "runs": 108,
+  "steps": 180,
+  "rows": 19440,
+  "source": "synthetic",
+  "splits": {
+    "ood": 18,
+    "test": 18,
+    "train": 54,
+    "validation": 18
+  }
+}

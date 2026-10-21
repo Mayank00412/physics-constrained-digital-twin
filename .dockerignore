@@ -1,0 +1,7 @@
+.venv
+.runtime
+.git
+frontend/node_modules
+frontend/dist
+data
+models

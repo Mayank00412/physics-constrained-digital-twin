@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "epochs": 40,
+  "physics_lambda": 1.0,
+  "features": [
+    "motor_speed",
+    "gearbox_output_speed",
+    "conveyor_speed",
+    "load",
+    "motor_torque",
+    "gearbox_output_torque",
+    "voltage",
+    "current",
+    "power_factor",
+    "power",
+    "mechanical_power",
+    "motor_temperature",
+    "gearbox_temperature",
+    "vibration",
+    "acceleration",
+    "ambient"
+  ],
+  "thresholds": {
+    "physics": 0.023558411314951042,
+    "isolation_forest": 0.663929921593489,
+    "autoencoder": 2.5795719623565674,
+    "hybrid": 2.133543014526367,
+    "ablation_lambda0": 2.5795719623565674,
+    "fusion": 0.6885420786907922
+  },
+  "losses": {
+    "autoencoder": {
+      "data": 0.37711381912231445,
+      "physics": 0.29124367237091064,
+      "validation_objective": 0.33062222599983215
+    },
+    "hybrid": {
+      "data": 0.4361991286277771,
+      "physics": 0.06074236333370209,
+      "validation_objective": 0.4444405436515808
+    },
+    "ablation_lambda0": {
+      "data": 0.37711381912231445,
+      "physics": 0.29124367237091064,
+      "validation_objective": 0.33062222599983215
+    }
+  },
+  "healthy_train_rows": 3240,
+  "healthy_validation_rows": 1080
+}

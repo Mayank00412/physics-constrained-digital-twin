@@ -1,0 +1,5 @@
+seeds: [42, 43, 44]
+runs: 108
+steps: 180
+epochs: 40
+physics_lambda: 1.0
